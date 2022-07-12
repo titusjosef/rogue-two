@@ -1,7 +1,7 @@
 html {
     font-size:16px;
 }
-
+ 
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -183,15 +183,12 @@ footer span {
 
 @media all and (min-width:768px) {
     /* Tablet styles here */
+
 .bottom-section {
-
-	justify-content: space-between;
-	align-items: flex-start;
-	border-top: 1px solid #eee;
-
-
-
-
+justify-content: space-between;
+align-items: flex-start;
+border-top: 1px solid #eee;
+display: flex;
 }
 .section-one,
 .section-two,
